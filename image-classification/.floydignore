@@ -12,6 +12,7 @@ sdist
 var
 
 # Don't upload local data to Floyd
+.ipynb_checkpoints
 checkpoint
 cifar-10-python.tar.gz
 cifar-10-batches-py
@@ -19,5 +20,6 @@ image_classification.data-*
 image_classification.index
 image_classification.meta
 preprocess_batch_*.p
+preprocess_test.p
 preprocess_training.p
 preprocess_validation.p
